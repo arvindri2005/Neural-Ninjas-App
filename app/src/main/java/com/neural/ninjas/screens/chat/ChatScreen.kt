@@ -178,7 +178,7 @@ fun getChatResponse(message: String, previousMessages: List<Message>, botRespons
     )
 
     val contentType = "application/json"
-    val authorization = "Bearer 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"
+    val authorization = "Bearer ApiKey"
 
     Log.d("ChatScreen", "getChatResponse: $requestBody")
 
